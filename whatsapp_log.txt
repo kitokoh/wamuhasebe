@@ -1,0 +1,1886 @@
+2024-10-20 22:07:52,576 - INFO - ====== WebDriver manager ======
+2024-10-20 22:07:53,943 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:07:54,746 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:07:55,341 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:07:56,706 - INFO - WebDriver version 129.0.6668.100 selected
+2024-10-20 22:07:56,709 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.100/win32/chromedriver-win32.zip
+2024-10-20 22:07:56,709 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.100/win32/chromedriver-win32.zip
+2024-10-20 22:07:57,247 - INFO - Driver downloading response is 200
+2024-10-20 22:07:57,903 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:07:58,621 - INFO - Driver has been saved in cache [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100]
+2024-10-20 22:10:18,713 - INFO - ====== WebDriver manager ======
+2024-10-20 22:10:19,706 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:10:20,453 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:10:21,058 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:17:01,552 - INFO - ====== WebDriver manager ======
+2024-10-20 22:17:02,513 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:17:03,095 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:17:03,686 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:22:03,824 - INFO - ====== WebDriver manager ======
+2024-10-20 22:22:04,784 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:22:05,454 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:22:06,058 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:27:49,699 - INFO - ====== WebDriver manager ======
+2024-10-20 22:27:50,687 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:27:51,321 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:27:51,874 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:28:42,627 - INFO - ====== WebDriver manager ======
+2024-10-20 22:28:43,580 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:28:44,171 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:28:44,738 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:33:24,372 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-20 22:38:16,871 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-20 22:40:44,293 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    try:
+         
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 22:40:44,422 - INFO - send_message() finished running!
+2024-10-20 22:40:46,430 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-20 22:40:46,433 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    try:
+         
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 22:40:46,438 - INFO - send_message() finished running!
+2024-10-20 22:40:48,448 - INFO - Messages envoyés avec succès : 2
+2024-10-20 22:40:48,450 - INFO - Messages échoués : 0
+2024-10-20 22:41:04,270 - INFO - ====== WebDriver manager ======
+2024-10-20 22:41:05,304 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:41:05,967 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-20 22:41:06,548 - INFO - Driver [C:\Users\ibrahim\.wdm\drivers\chromedriver\win64\129.0.6668.100\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-10-20 22:48:32,358 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-20 22:49:22,786 - ERROR - Failed to send a message to  - Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F335317C]
+	(No symbol) [0x00007FF6F33530EC]
+	(No symbol) [0x00007FF6F3351861]
+	(No symbol) [0x00007FF6F33525BF]
+	(No symbol) [0x00007FF6F336FBF1]
+	(No symbol) [0x00007FF6F33706DA]
+	(No symbol) [0x00007FF6F33744B7]
+	(No symbol) [0x00007FF6F3374570]
+	(No symbol) [0x00007FF6F33BF20F]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F335317C]
+	(No symbol) [0x00007FF6F33530EC]
+	(No symbol) [0x00007FF6F3351861]
+	(No symbol) [0x00007FF6F33525BF]
+	(No symbol) [0x00007FF6F336FBF1]
+	(No symbol) [0x00007FF6F33706DA]
+	(No symbol) [0x00007FF6F33744B7]
+	(No symbol) [0x00007FF6F3374570]
+	(No symbol) [0x00007FF6F33BF20F]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:02:29,429 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-20 23:02:59,450 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:02:59,547 - INFO - send_message() finished running!
+2024-10-20 23:02:59,552 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-20 23:02:59,560 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:02:59,563 - INFO - send_picture() finished running!
+2024-10-20 23:02:59,563 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-20 23:02:59,566 - ERROR - Failed to send a file to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:02:59,569 - INFO - send_file() finished running!
+2024-10-20 23:02:59,569 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-20 23:02:59,570 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-20 23:02:59,572 - INFO - send_video() finished running!
+2024-10-20 23:03:01,580 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-20 23:03:01,587 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:03:01,595 - INFO - send_message() finished running!
+2024-10-20 23:03:01,597 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-20 23:03:01,601 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:03:01,607 - INFO - send_picture() finished running!
+2024-10-20 23:03:01,607 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-20 23:03:01,610 - ERROR - Failed to send a file to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.101)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F333FCC5]
+	(No symbol) [0x00007FF6F33EEE07]
+	(No symbol) [0x00007FF6F3407E21]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-20 23:03:01,614 - INFO - send_file() finished running!
+2024-10-20 23:03:01,614 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-20 23:03:01,615 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-20 23:03:01,616 - INFO - send_video() finished running!
+2024-10-20 23:03:03,624 - INFO - Messages envoyés avec succès : 2
+2024-10-20 23:03:03,625 - INFO - Messages échoués : 0
+2024-10-21 12:15:22,425 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-21 12:25:22,697 - ERROR - Failed to send a message to  - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-21 12:25:22,875 - INFO - send_message() finished running!
+2024-10-21 12:25:22,877 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-21 12:35:22,933 - ERROR - Failed to send a message to  - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-21 12:35:22,943 - INFO - send_picture() finished running!
+2024-10-21 12:35:22,947 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-21 12:45:23,030 - ERROR - Failed to send a file to  - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-21 12:45:23,032 - INFO - send_file() finished running!
+2024-10-21 12:45:23,032 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-21 12:45:23,033 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-21 12:45:23,034 - INFO - send_video() finished running!
+2024-10-21 12:45:25,036 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-21 12:55:25,568 - ERROR - Failed to send a message to  - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "D:\bons\les instances\whattsapping\alright\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F353B095+29557]
+	(No symbol) [0x00007FF6F34AFA50]
+	(No symbol) [0x00007FF6F336B56A]
+	(No symbol) [0x00007FF6F33BF695]
+	(No symbol) [0x00007FF6F33BF8EC]
+	(No symbol) [0x00007FF6F340B777]
+	(No symbol) [0x00007FF6F33E71CF]
+	(No symbol) [0x00007FF6F340851C]
+	(No symbol) [0x00007FF6F33E6F33]
+	(No symbol) [0x00007FF6F33B116F]
+	(No symbol) [0x00007FF6F33B22D1]
+	GetHandleVerifier [0x00007FF6F386C96D+3378253]
+	GetHandleVerifier [0x00007FF6F38B8497+3688311]
+	GetHandleVerifier [0x00007FF6F38AD1CB+3642539]
+	GetHandleVerifier [0x00007FF6F35FA6B6+813462]
+	(No symbol) [0x00007FF6F34BAB5F]
+	(No symbol) [0x00007FF6F34B6B74]
+	(No symbol) [0x00007FF6F34B6D10]
+	(No symbol) [0x00007FF6F34A5C1F]
+	BaseThreadInitThunk [0x00007FFBE78E7344+20]
+	RtlUserThreadStart [0x00007FFBE7E5CC91+33]
+
+2024-10-21 12:55:25,922 - INFO - send_message() finished running!
+2024-10-21 12:55:27,927 - INFO - Messages envoyés avec succès : 2
+2024-10-21 12:55:27,927 - INFO - Messages échoués : 0
+2024-10-29 19:17:45,659 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-29 19:17:55,928 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:17:55,970 - INFO - send_message() finished running!
+2024-10-29 19:17:57,978 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-29 19:17:57,978 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:17:57,999 - INFO - send_message() finished running!
+2024-10-29 19:17:57,999 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-29 19:17:58,004 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:17:58,018 - INFO - send_picture() finished running!
+2024-10-29 19:17:58,019 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-29 19:17:58,021 - ERROR - Failed to send a file to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:17:58,035 - INFO - send_file() finished running!
+2024-10-29 19:17:58,035 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-29 19:17:58,035 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-29 19:17:58,039 - INFO - send_video() finished running!
+2024-10-29 19:18:00,048 - INFO - Messages envoyés avec succès : 2
+2024-10-29 19:18:00,048 - INFO - Messages échoués : 0
+2024-10-29 19:18:09,200 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-29 19:18:20,086 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:18:20,102 - INFO - send_message() finished running!
+2024-10-29 19:18:22,107 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-29 19:18:22,112 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:18:22,132 - INFO - send_message() finished running!
+2024-10-29 19:18:22,134 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-29 19:18:22,137 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:18:22,149 - INFO - send_picture() finished running!
+2024-10-29 19:18:22,149 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-29 19:18:22,153 - ERROR - Failed to send a file to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:18:22,168 - INFO - send_file() finished running!
+2024-10-29 19:18:22,168 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-29 19:18:22,168 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-29 19:18:22,168 - INFO - send_video() finished running!
+2024-10-29 19:18:24,174 - INFO - Messages envoyés avec succès : 2
+2024-10-29 19:18:24,174 - INFO - Messages échoués : 0
+2024-10-29 19:19:53,293 - INFO - Envoi du message texte à 25573652000: Don't forget the meeting tomorrow
+2024-10-29 19:23:45,153 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:23:45,171 - INFO - send_message() finished running!
+2024-10-29 19:23:47,173 - INFO - Envoi du message texte à 25573652000: Hello, how are you?
+2024-10-29 19:23:47,175 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:23:47,192 - INFO - send_message() finished running!
+2024-10-29 19:23:47,193 - INFO - Envoi de l'image à 25573652000: path/to/image.jpg
+2024-10-29 19:23:47,196 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 551, in send_picture
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:23:47,211 - INFO - send_picture() finished running!
+2024-10-29 19:23:47,211 - INFO - Envoi du fichier PDF à 25573652000: path/to/document.pdf
+2024-10-29 19:23:47,214 - ERROR - Failed to send a file to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 636, in send_file
+    self.find_attachment()
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 489, in find_attachment
+    clipButton = self.wait.until(
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:23:47,227 - INFO - send_file() finished running!
+2024-10-29 19:23:47,228 - INFO - Envoi de la vidéo à 25573652000: path/to/video.mp4
+2024-10-29 19:23:47,228 - ERROR - Failed to send a message to  - [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 599, in send_video
+    f_size = os.path.getsize(filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 50, in getsize
+FileNotFoundError: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'D:\\bons\\les instances\\whattsapping\\alright\\25573652000'
+2024-10-29 19:23:47,231 - INFO - send_video() finished running!
+2024-10-29 19:23:49,236 - INFO - Messages envoyés avec succès : 2
+2024-10-29 19:23:49,238 - INFO - Messages échoués : 0
+2024-10-29 19:24:30,467 - INFO - Envoi du message texte à +905313003687: Don't forget the meeting tomorrow
+2024-10-29 19:31:09,699 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:31:09,736 - INFO - send_message() finished running!
+2024-10-29 19:31:11,741 - INFO - Messages envoyés avec succès : 1
+2024-10-29 19:31:11,743 - INFO - Messages échoués : 0
+2024-10-29 19:43:27,230 - INFO - Envoi du message texte à +905313003687: Don't forget the meeting tomorrow
+2024-10-29 19:43:56,444 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+Traceback (most recent call last):
+  File "D:\bons\les instances\whattsapping\alright\alright\__init__.py", line 465, in send_message
+    input_box = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ibrahim\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7510E3AB5+28005]
+	(No symbol) [0x00007FF7510483B0]
+	(No symbol) [0x00007FF750EE580A]
+	(No symbol) [0x00007FF750EBFA85]
+	(No symbol) [0x00007FF750F62AD7]
+	(No symbol) [0x00007FF750F7B1B1]
+	(No symbol) [0x00007FF750F5B7E3]
+	(No symbol) [0x00007FF750F275C8]
+	(No symbol) [0x00007FF750F28731]
+	GetHandleVerifier [0x00007FF7513D643D+3118829]
+	GetHandleVerifier [0x00007FF751426C90+3448640]
+	GetHandleVerifier [0x00007FF75141CF0D+3408317]
+	GetHandleVerifier [0x00007FF7511AA40B+841403]
+	(No symbol) [0x00007FF75105340F]
+	(No symbol) [0x00007FF75104F484]
+	(No symbol) [0x00007FF75104F61D]
+	(No symbol) [0x00007FF75103EB79]
+	BaseThreadInitThunk [0x00007FFE93147344+20]
+	RtlUserThreadStart [0x00007FFE9497CC91+33]
+
+2024-10-29 19:43:56,465 - INFO - send_message() finished running!
+2024-10-29 19:43:58,467 - INFO - Messages envoyés avec succès : 1
+2024-10-29 19:43:58,468 - INFO - Messages échoués : 0
