@@ -15,6 +15,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -23,7 +24,7 @@ from selenium.common.exceptions import (
     NoSuchElementException,
 )
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service as ChromeService
+
 LOGGER = logging.getLogger()
 
 
@@ -37,6 +38,7 @@ class WhatsApp(object):
 
         if not browser:
             browser = webdriver.Chrome(
+                service=ChromeService(ChromeDriverManager().install()),
                 options=self.chrome_options,
             )
 
@@ -156,7 +158,7 @@ class WhatsApp(object):
             EC.presence_of_element_located(
                 (
                     By.XPATH,
-                    "/html/body/div[1]/div/div/div[4]/div/div[1]/div/div/div[2]/div/div[1]",
+                    '//*[@id="side"]/div[1]/div/div/div[2]/div/div[1]',
                 )
             )
         )
@@ -461,7 +463,9 @@ class WhatsApp(object):
             message ([type]): [description]
         """
         try:
-            inp_xpath = '//*[@id="main"]/footer/div/div/span[2]/div/div[2]/div/div/div'
+            inp_xpath = (
+                '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div[1]/div/div[1]/p'
+            )
             input_box = self.wait.until(
                 EC.presence_of_element_located((By.XPATH, inp_xpath))
             )

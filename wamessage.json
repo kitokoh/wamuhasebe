@@ -1,7 +1,13 @@
 [
 
     {
-      "text": "Don't forget the meeting tomorrow",
+      "text": "{name} Don't forget the meeting tomorrow",
+      "image": null,
+      "pdf": null,
+      "video": null
+    },
+    {
+      "text": "{name} Don't forget the meeting tomorrow",
       "image": null,
       "pdf": null,
       "video": null

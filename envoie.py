@@ -6,87 +6,109 @@ from alright import WhatsApp
 
 class WhatsAppMessenger:
     def __init__(self, message_file='wamessage.json', contact_file='wacontact.json', log_file='whatsapp_log.txt'):
-        """Initialisation du WhatsApp Messenger avec des fichiers JSON et la configuration du système de logs."""
+        """Initialisation du WhatsApp Messenger avec des fichiers JSON et configuration des logs."""
         self.message_file = message_file
         self.contact_file = contact_file
-        
-        # Configurer les logs
-        logging.basicConfig(filename=log_file, level=logging.INFO,
-                            format='%(asctime)s - %(levelname)s - %(message)s')
+
+        # Configurer les logs pour inclure DEBUG pour un maximum de détails
+        logging.basicConfig(
+            filename=log_file,
+            level=logging.DEBUG,  # DEBUG pour capturer tous les détails
+            format='%(asctime)s - %(levelname)s - %(message)s'
+        )
+        logging.info("Initialisation de WhatsApp Messenger")
 
         # Charger les fichiers JSON
-        self.messages = self._load_json(self.message_file)
-        self.contacts = self._load_json(self.contact_file)
+        self.messages = self._load_json(self.message_file, "messages")
+        self.contacts = self._load_json(self.contact_file, "contacts")
 
         # Initialiser l'objet WhatsApp
         self.messenger = WhatsApp()
 
-        # Compteurs pour statistiques
+        # Compteurs pour les statistiques
         self.messages_envoyes = 0
         self.messages_echoues = 0
 
-    def _load_json(self, file_path):
+    def _load_json(self, file_path, file_type):
         """Méthode pour charger un fichier JSON."""
+        logging.debug(f"Tentative de chargement du fichier {file_type} depuis {file_path}")
         try:
             with open(file_path, 'r') as file:
-                return json.load(file)
+                data = json.load(file)
+                logging.info(f"Fichier {file_type} chargé avec succès : {len(data)} entrées trouvées.")
+                return data
         except FileNotFoundError:
             logging.error(f"Le fichier {file_path} n'a pas été trouvé.")
+            return None
+        except json.JSONDecodeError as e:
+            logging.error(f"Erreur de décodage JSON dans {file_path} : {str(e)}")
             return None
 
     def send_personalized_message(self, contact):
         """Envoie un message personnalisé à un contact."""
         try:
+            logging.debug(f"Préparation de l'envoi pour le contact : {contact}")
+            # Vérifier les informations du contact
+            if not contact.get('phone') or not contact.get('name'):
+                logging.error(f"Données de contact invalides : {contact}")
+                return False
+
             # Sélectionner un message aléatoire
+            if not self.messages:
+                logging.error("Aucun message disponible pour l'envoi.")
+                return False
+
             message = random.choice(self.messages)
-
-            # Personnaliser le message avec le nom du contact
             message_text = message.get('text', '').replace("{name}", contact['name'])
+            logging.debug(f"Message sélectionné : {message_text}")
 
-            # Envoyer le texte
+            # Envoyer le message texte
             if message_text:
-                logging.info(f"Envoi du message texte à {contact['phone']}: {message_text}")
-                self.messenger.send_message(contact['phone'], message_text)
+                logging.info(f"Envoi du message texte à {contact['phone']} : {message_text}")
+                self.messenger.send_direct_message(contact['phone'], message_text)
 
             # Envoyer une image (si disponible)
             if message.get('image'):
-                logging.info(f"Envoi de l'image à {contact['phone']}: {message['image']}")
+                logging.info(f"Envoi de l'image à {contact['phone']} : {message['image']}")
                 self.messenger.send_picture(contact['phone'], message['image'])
 
             # Envoyer un PDF (si disponible)
             if message.get('pdf'):
-                logging.info(f"Envoi du fichier PDF à {contact['phone']}: {message['pdf']}")
+                logging.info(f"Envoi du fichier PDF à {contact['phone']} : {message['pdf']}")
                 self.messenger.send_file(contact['phone'], message['pdf'])
 
             # Envoyer une vidéo (si disponible)
             if message.get('video'):
-                logging.info(f"Envoi de la vidéo à {contact['phone']}: {message['video']}")
+                logging.info(f"Envoi de la vidéo à {contact['phone']} : {message['video']}")
                 self.messenger.send_video(contact['phone'], message['video'])
 
             return True  # Envoi réussi
 
         except Exception as e:
-            logging.error(f"Erreur lors de l'envoi à {contact['phone']}: {str(e)}")
+            logging.error(f"Erreur lors de l'envoi à {contact['phone']} : {str(e)}")
             return False  # Envoi échoué
 
     def send_messages_to_all_contacts(self):
         """Envoie des messages à tous les contacts de manière séquentielle."""
+        logging.info("Début de l'envoi des messages à tous les contacts.")
+
         if not self.contacts or not self.messages:
-            print("Erreur : Messages ou contacts non chargés.")
+            logging.error("Les messages ou contacts ne sont pas chargés.")
             return
 
-        for contact in self.contacts:
-            print(f"\n--- Envoi du message à {contact['name']} ({contact['phone']}) ---")
+        for index, contact in enumerate(self.contacts, start=1):
+            logging.debug(f"Traitement du contact {index}/{len(self.contacts)} : {contact}")
 
             # Envoi du message personnalisé et enregistrement du succès ou de l'échec
             if self.send_personalized_message(contact):
-                print(f"Message envoyé à {contact['name']}")
+                logging.info(f"Message envoyé avec succès à {contact['name']} ({contact['phone']}).")
                 self.messages_envoyes += 1
             else:
-                print(f"Échec de l'envoi à {contact['name']}")
+                logging.warning(f"Échec de l'envoi à {contact['name']} ({contact['phone']}).")
                 self.messages_echoues += 1
 
             # Pause pour éviter d'envoyer trop rapidement (optionnel)
+            logging.debug(f"Pause après l'envoi au contact {contact['name']}.")
             time.sleep(2)  # 2 secondes de pause entre chaque envoi
 
         # Résumé final des envois
@@ -94,14 +116,22 @@ class WhatsAppMessenger:
 
     def _log_summary(self):
         """Enregistre un résumé des envois."""
+        logging.info("Résumé des envois :")
+        logging.info(f"Messages envoyés avec succès : {self.messages_envoyes}")
+        logging.info(f"Messages échoués : {self.messages_echoues}")
+
         print("\n--- Résumé des envois ---")
         print(f"Messages envoyés avec succès : {self.messages_envoyes}")
         print(f"Messages échoués : {self.messages_echoues}")
-
-        logging.info(f"Messages envoyés avec succès : {self.messages_envoyes}")
-        logging.info(f"Messages échoués : {self.messages_echoues}")
 
 # Exemple d'utilisation
 if __name__ == "__main__":
     whatsapp_messenger = WhatsAppMessenger()
     whatsapp_messenger.send_messages_to_all_contacts()
+
+
+
+
+
+
+
