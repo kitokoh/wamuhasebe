@@ -149,4 +149,3 @@ __pycache__/
 *.env
 
 # Exclure tout sauf le dossier venv
-!ENV1/
