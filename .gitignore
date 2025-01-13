@@ -141,3 +141,12 @@ dist/
 *.data
 *.spec
 *.ini
+
+# Ignorer les fichiers Python standards
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+
+# Exclure tout sauf le dossier venv
+!ENV1/

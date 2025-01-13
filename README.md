@@ -1,6 +1,9 @@
 # [alright](#)
 
 <samp>
+find venv -name "__pycache__" -exec rm -rf {} +
+find venv -name "*.pyc" -exec rm -rf {} +
+find venv -name "*.pyo" -exec rm -rf {} +
 
 Python wrapper for WhatsApp web made with selenium inspired by [PyWhatsApp](https://github.com/shauryauppal/PyWhatsapp)
 
