@@ -1,16 +1,8 @@
 [
-
-    {
-      "text": "{name} Don't forget the meeting tomorrow",
+  {
+      "text": "Sayın {MÜKELLEF} \nAşağıda bu ayki ödemeleriniz listelenmiştir. \n  \n - KDV D. VERGİSİ: {KDV} \n - STOPAJ: {STOPAJ} \n - KDV 2: {KDV 2} \n - GEÇİCİ VERGİ: {GEÇİCİ VERGİ} \n - GELİR V.: {GELİR V.} \n - MTV: {MTV} \n - T. CEZASI: {T. CEZASI} \n - VERGİ YAP.: {VERGİ YAP.} \n - SGK PRİM: {SGK} \n - BAĞ-KUR: {BAĞ-KUR} \n - SGK YAPILANDIRMA: {SGK YAPILANDIRMA} \n - SMM KDV Sİ: {SMM KDV Sİ} \n - E DÖNÜŞÜM: {E DÖNÜŞÜM} \n - DEFTER TASTİK: {DEFTER TASTİK} \n - E. KALAN TUTAR: {E. KALAN TUTAR} \n - MUHASEBE ÜC.: {MUHASEBE ÜC.} \n - TOPLAM: {TOPLAM} \n \n - SON ÖDEME: {SON ÖDEME} \n - İBAN: {İBAN} \n \n *NOT : Dekonta Açıklama Yazmayınız.*",
       "image": null,
       "pdf": null,
       "video": null
-    },
-    {
-      "text": "{name} Don't forget the meeting tomorrow",
-      "image": null,
-      "pdf": null,
-      "video": null
-    }
-  ]
-  
+  }
+]
