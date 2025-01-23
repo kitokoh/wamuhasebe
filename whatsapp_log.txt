@@ -3077,3 +3077,1195 @@ A\u015fa\u011f\u0131da bu ayki ödemeleriniz listelenmi\u015ftir.
 2025-01-19 20:49:59,456 - INFO - Résumé des envois :
 2025-01-19 20:49:59,456 - INFO - Messages envoyés avec succès : 15
 2025-01-19 20:49:59,456 - INFO - Messages échoués : 0
+2025-01-23 11:55:03,987 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 11:55:03,987 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 11:55:03,994 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 11:55:03,994 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 11:55:04,000 - INFO - Fichier contacts chargé avec succès : 15 entrées trouvées.
+2025-01-23 11:55:04,000 - INFO - ====== WebDriver manager ======
+2025-01-23 11:55:04,711 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 11:55:04,713 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 11:55:04,911 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 11:55:04,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 11:55:04,925 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 11:55:05,117 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 11:55:05,124 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 11:55:05,125 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 11:55:05,318 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 11:55:05,321 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 11:55:05,476 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/known-good-versions-with-downloads.json HTTP/1.1" 200 75106
+2025-01-23 11:55:05,555 - INFO - WebDriver version 131.0.6778.264 selected
+2025-01-23 11:55:05,557 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/win32/chromedriver-win32.zip
+2025-01-23 11:55:05,557 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/win32/chromedriver-win32.zip
+2025-01-23 11:55:05,558 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-01-23 11:55:05,711 - DEBUG - https://storage.googleapis.com:443 "GET /chrome-for-testing-public/131.0.6778.264/win32/chromedriver-win32.zip HTTP/1.1" 200 8232778
+2025-01-23 11:55:05,712 - INFO - Driver downloading response is 200
+2025-01-23 11:55:06,323 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 11:55:06,324 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 11:55:06,479 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 11:55:06,853 - INFO - Driver has been saved in cache [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264]
+2025-01-23 11:55:06,854 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 11:55:06,970 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 16312 using 0 to output -3
+2025-01-23 11:55:07,481 - DEBUG - POST http://localhost:50435/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 11:55:07,482 - DEBUG - Starting new HTTP connection (1): localhost:50435
+2025-01-23 11:55:08,333 - DEBUG - http://localhost:50435 "POST /session HTTP/1.1" 200 0
+2025-01-23 11:55:08,334 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50438"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ab346bad659f6f9e64a1acb59eda706d"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 11:55:08,334 - DEBUG - Finished Request
+2025-01-23 11:55:08,334 - DEBUG - GET http://localhost:50435/session/ab346bad659f6f9e64a1acb59eda706d/window/handles {}
+2025-01-23 11:55:08,336 - DEBUG - http://localhost:50435 "GET /session/ab346bad659f6f9e64a1acb59eda706d/window/handles HTTP/1.1" 200 0
+2025-01-23 11:55:08,336 - DEBUG - Remote response: status=200 | data={"value":["D7436DB948F221D0683B260C83C5625A"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 11:55:08,336 - DEBUG - Finished Request
+2025-01-23 11:55:08,336 - DEBUG - GET http://localhost:50435/session/ab346bad659f6f9e64a1acb59eda706d/window {}
+2025-01-23 11:55:08,338 - DEBUG - http://localhost:50435 "GET /session/ab346bad659f6f9e64a1acb59eda706d/window HTTP/1.1" 200 0
+2025-01-23 11:55:08,339 - DEBUG - Remote response: status=200 | data={"value":"D7436DB948F221D0683B260C83C5625A"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 11:55:08,340 - DEBUG - Finished Request
+2025-01-23 11:55:10,042 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 11:55:10,042 - INFO - Envoi du message texte à 905363044002 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408.0 
+ - STOPAJ: 365.0 
+ - SGK PRÝM: 12000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 5.0 
+ - TOPLAM: 12823.0 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:16,108 - INFO - It was not possible to fetch chat "905363044002"
+2025-01-23 11:55:43,142 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\wamuhasebe\alright\__init__.py", line 469, in send_message
+    input_box = self.wait.until(
+        EC.presence_of_element_located((By.XPATH, inp_xpath))
+    )
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 888, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:43,146 - INFO - send_message() finished running!
+2025-01-23 11:55:43,146 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (905363044002).
+2025-01-23 11:55:45,148 - INFO - Envoi du message texte à 905363044002 : Sayýn ALÝ DURMUÞ 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.0 
+ - KDV 2: 2000.0 
+ - MTV: 9000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 11818.3 
+ 
+ - SON ÖDEME: 27 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:45,150 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:45,150 - WARNING - Échec de l'envoi à ALÝ DURMUÞ (905363044002).
+2025-01-23 11:55:47,151 - INFO - Envoi du message texte à 905363044002 : Sayýn ASLI MOR 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.0 
+ - GEÇÝCÝ VERGÝ: 56.0 
+ - GELÝR V.: 7888.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 3.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 8765.3 
+ 
+ - SON ÖDEME: 28 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:47,153 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:47,153 - WARNING - Échec de l'envoi à ASLI MOR (905363044002).
+2025-01-23 11:55:49,154 - INFO - Envoi du message texte à 905363044002 : Sayýn KIZILDOÐAN OTO .ÝNÞ. LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.5 
+ - KDV 2: 39999.0 
+ - BAÐ-KUR: 5900.73 
+ - SGK YAPILANDIRMA: 4.0 
+ - SMM KDV SÝ: 899.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 47621.53 
+ 
+ - SON ÖDEME: 29 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:49,156 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:49,157 - WARNING - Échec de l'envoi à KIZILDOÐAN OTO .ÝNÞ. LTD. ÞTÝ. (905363044002).
+2025-01-23 11:55:51,158 - INFO - Envoi du message texte à 905363044002 : Sayýn ELZEM LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 1841.04 
+ - STOPAJ: 365.5 
+ - SGK YAPILANDIRMA: 4.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 43.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 2398.54 
+ 
+ - SON ÖDEME: 30 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:51,159 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:51,160 - WARNING - Échec de l'envoi à ELZEM LTD. ÞTÝ. (905363044002).
+2025-01-23 11:55:53,161 - INFO - Envoi du message texte à 905363044002 : Sayýn EMRE YILDIRIM  
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.5 
+ - SGK YAPILANDIRMA: 4.0 
+ - SMM KDV SÝ: 5.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 534.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 1361.8 
+ 
+ - SON ÖDEME: 31 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:53,162 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:53,162 - WARNING - Échec de l'envoi à EMRE YILDIRIM  (905363044002).
+2025-01-23 11:55:55,163 - INFO - Envoi du message texte à 905363044002 : Sayýn SAHRA KUNDURA 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.5 
+ - KDV 2: 999.0 
+ - VERGÝ YAP.: 11685.34 
+ - SGK YAPILANDIRMA: 456.0 
+ - SMM KDV SÝ: 5.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 5.0 
+ - MUHASEBE ÜC.: 120.0 
+ - TOPLAM: 13989.14 
+ 
+ - SON ÖDEME: 32 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:55,165 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:55,165 - WARNING - Échec de l'envoi à SAHRA KUNDURA (905363044002).
+2025-01-23 11:55:57,166 - INFO - Envoi du message texte à 905363044002 : Sayýn ÝBRAHÝM ARSLAN 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 2365.5 
+ - GELÝR V.: 5666.0 
+ - BAÐ-KUR: 5900.73 
+ - SGK YAPILANDIRMA: 6.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 523.0 
+ - MUHASEBE ÜC.: 150.0 
+ - TOPLAM: 14964.53 
+ 
+ - SON ÖDEME: 33 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:57,168 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:57,168 - WARNING - Échec de l'envoi à ÝBRAHÝM ARSLAN (905363044002).
+2025-01-23 11:55:59,169 - INFO - Envoi du message texte à 905363044002 : Sayýn ÝNCE TURÝZM LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 1900.0 
+ - SGK YAPILANDIRMA: 78.0 
+ - SMM KDV SÝ: 34.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 5.0 
+ - MUHASEBE ÜC.: 120.0 
+ - TOPLAM: 2182.0 
+ 
+ - SON ÖDEME: 34 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:55:59,171 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:55:59,171 - WARNING - Échec de l'envoi à ÝNCE TURÝZM LTD. ÞTÝ. (905363044002).
+2025-01-23 11:56:01,173 - INFO - Envoi du message texte à 905363044002 : Sayýn KARSER LTD ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 1840.0 
+ - SGK YAPILANDIRMA: 8765434.0 
+ - E DÖNÜÞÜM: 45.0 
+ - DEFTER TASTÝK: 5.0 
+ - MUHASEBE ÜC.: 150.0 
+ - TOPLAM: 8767474.0 
+ 
+ - SON ÖDEME: 35 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:01,185 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:01,185 - WARNING - Échec de l'envoi à KARSER LTD ÞTÝ. (905363044002).
+2025-01-23 11:56:03,186 - INFO - Envoi du message texte à 905363044002 : Sayýn MEHMET ADAK GAYRÝMENKUL LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 10926.4 
+ - STOPAJ: 52865.5 
+ - VERGÝ YAP.: 2710.8 
+ - SGK PRÝM: 3467.1 
+ - SGK YAPILANDIRMA: 567.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 70681.8 
+ 
+ - SON ÖDEME: 36 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:03,188 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:03,188 - WARNING - Échec de l'envoi à MEHMET ADAK GAYRÝMENKUL LTD. ÞTÝ. (905363044002).
+2025-01-23 11:56:05,189 - INFO - Envoi du message texte à 905363044002 : Sayýn SETAMAC MAKÝNA LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - SGK YAPILANDIRMA: 654.0 
+ - E DÖNÜÞÜM: 45.0 
+ - E. KALAN TUTAR: 16579.69 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 17378.69 
+ 
+ - SON ÖDEME: 37 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:05,191 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:05,191 - WARNING - Échec de l'envoi à SETAMAC MAKÝNA LTD. ÞTÝ. (905363044002).
+2025-01-23 11:56:07,193 - INFO - Envoi du message texte à 905363044002 : Sayýn OSMANLI REDÜKTÖR MOTOR LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - SGK YAPILANDIRMA: 35.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 180.0 
+ 
+ - SON ÖDEME: 38 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:07,195 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:07,195 - WARNING - Échec de l'envoi à OSMANLI REDÜKTÖR MOTOR LTD. ÞTÝ. (905363044002).
+2025-01-23 11:56:09,196 - INFO - Envoi du message texte à 905363044002 : Sayýn S.S. YAÞAM PARK YAPI KOOP. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 145.0 
+ 
+ - SON ÖDEME: 39 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:09,198 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:09,199 - WARNING - Échec de l'envoi à S.S. YAÞAM PARK YAPI KOOP. (905363044002).
+2025-01-23 11:56:11,199 - INFO - Envoi du message texte à 905363044002 : Sayýn ÖMÜRSAN MAKÝNA LTD. ÞTÝ. 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 453.3 
+ 
+ - SON ÖDEME: 40 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 11:56:11,201 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 11:56:11,202 - WARNING - Échec de l'envoi à ÖMÜRSAN MAKÝNA LTD. ÞTÝ. (905363044002).
+2025-01-23 11:56:13,202 - INFO - Résumé des envois :
+2025-01-23 11:56:13,202 - INFO - Messages envoyés avec succès : 1
+2025-01-23 11:56:13,203 - INFO - Messages échoués : 14
+2025-01-23 12:01:19,970 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 12:01:19,970 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 12:01:19,970 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:01:19,971 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 12:01:19,977 - INFO - Fichier contacts chargé avec succès : 2 entrées trouvées.
+2025-01-23 12:01:19,978 - INFO - ====== WebDriver manager ======
+2025-01-23 12:01:20,664 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:01:20,666 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:01:20,823 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:01:20,835 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:01:20,835 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:01:21,028 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:01:21,032 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-23 12:01:21,033 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 12:01:21,037 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 16448 using 0 to output -3
+2025-01-23 12:01:21,545 - DEBUG - POST http://localhost:50561/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 12:01:21,546 - DEBUG - Starting new HTTP connection (1): localhost:50561
+2025-01-23 12:01:22,297 - DEBUG - http://localhost:50561 "POST /session HTTP/1.1" 200 0
+2025-01-23 12:01:22,297 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50565"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a33685632fb41d8bfc540db01bab0376"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:01:22,297 - DEBUG - Finished Request
+2025-01-23 12:01:22,297 - DEBUG - GET http://localhost:50561/session/a33685632fb41d8bfc540db01bab0376/window/handles {}
+2025-01-23 12:01:22,298 - DEBUG - http://localhost:50561 "GET /session/a33685632fb41d8bfc540db01bab0376/window/handles HTTP/1.1" 200 0
+2025-01-23 12:01:22,298 - DEBUG - Remote response: status=200 | data={"value":["477541BF2A795B416481A76218F51A0D"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:01:22,298 - DEBUG - Finished Request
+2025-01-23 12:01:22,299 - DEBUG - GET http://localhost:50561/session/a33685632fb41d8bfc540db01bab0376/window {}
+2025-01-23 12:01:22,299 - DEBUG - http://localhost:50561 "GET /session/a33685632fb41d8bfc540db01bab0376/window HTTP/1.1" 200 0
+2025-01-23 12:01:22,299 - DEBUG - Remote response: status=200 | data={"value":"477541BF2A795B416481A76218F51A0D"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:01:22,299 - DEBUG - Finished Request
+2025-01-23 12:01:23,861 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 12:01:23,862 - INFO - Envoi du message texte à 905363044002 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408.0 
+ - STOPAJ: 365.0 
+ - SGK PRÝM: 12000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 5.0 
+ - TOPLAM: 12823.0 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:01:29,978 - INFO - It was not possible to fetch chat "905363044002"
+2025-01-23 12:01:40,687 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\wamuhasebe\alright\__init__.py", line 469, in send_message
+    input_box = self.wait.until(
+        EC.presence_of_element_located((By.XPATH, inp_xpath))
+    )
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 888, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 12:01:40,694 - INFO - send_message() finished running!
+2025-01-23 12:01:40,694 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (905363044002).
+2025-01-23 12:01:42,694 - INFO - Envoi du message texte à 905363044002 : Sayýn ALÝ DURMUÞ 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.0 
+ - KDV 2: 2000.0 
+ - MTV: 9000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 11818.3 
+ 
+ - SON ÖDEME: 27 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:01:42,696 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 12:01:42,697 - WARNING - Échec de l'envoi à ALÝ DURMUÞ (905363044002).
+2025-01-23 12:01:44,698 - INFO - Résumé des envois :
+2025-01-23 12:01:44,699 - INFO - Messages envoyés avec succès : 1
+2025-01-23 12:01:44,699 - INFO - Messages échoués : 1
+2025-01-23 12:02:42,615 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 12:02:42,615 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 12:02:42,615 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:02:42,615 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 12:02:42,616 - INFO - Fichier contacts chargé avec succès : 2 entrées trouvées.
+2025-01-23 12:02:42,616 - INFO - ====== WebDriver manager ======
+2025-01-23 12:02:43,299 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:02:43,301 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:02:43,500 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:02:43,502 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:02:43,503 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:02:43,700 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:02:43,703 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-23 12:02:43,704 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 12:02:43,708 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 19664 using 0 to output -3
+2025-01-23 12:02:44,222 - DEBUG - POST http://localhost:50608/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 12:02:44,222 - DEBUG - Starting new HTTP connection (1): localhost:50608
+2025-01-23 12:02:44,912 - DEBUG - http://localhost:50608 "POST /session HTTP/1.1" 200 0
+2025-01-23 12:02:44,912 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50612"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"358d360c16053291126f78f71e0d4591"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:02:44,912 - DEBUG - Finished Request
+2025-01-23 12:02:44,913 - DEBUG - GET http://localhost:50608/session/358d360c16053291126f78f71e0d4591/window/handles {}
+2025-01-23 12:02:44,918 - DEBUG - http://localhost:50608 "GET /session/358d360c16053291126f78f71e0d4591/window/handles HTTP/1.1" 200 0
+2025-01-23 12:02:44,918 - DEBUG - Remote response: status=200 | data={"value":["0A6631602C1DDB508B7CDE3094BF912F"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:02:44,918 - DEBUG - Finished Request
+2025-01-23 12:02:44,918 - DEBUG - GET http://localhost:50608/session/358d360c16053291126f78f71e0d4591/window {}
+2025-01-23 12:02:44,919 - DEBUG - http://localhost:50608 "GET /session/358d360c16053291126f78f71e0d4591/window HTTP/1.1" 200 0
+2025-01-23 12:02:44,919 - DEBUG - Remote response: status=200 | data={"value":"0A6631602C1DDB508B7CDE3094BF912F"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:02:44,919 - DEBUG - Finished Request
+2025-01-23 12:02:46,254 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 12:02:46,254 - INFO - Envoi du message texte à 0905396701379 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408.0 
+ - STOPAJ: 365.0 
+ - SGK PRÝM: 12000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 5.0 
+ - TOPLAM: 12823.0 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:02:52,978 - INFO - It was not possible to fetch chat "0905396701379"
+2025-01-23 12:03:01,121 - ERROR - Failed to send a message to  - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\wamuhasebe\alright\__init__.py", line 469, in send_message
+    input_box = self.wait.until(
+        EC.presence_of_element_located((By.XPATH, inp_xpath))
+    )
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 888, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\wamuhasebe\env1\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 12:03:01,156 - INFO - send_message() finished running!
+2025-01-23 12:03:01,158 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (0905396701379).
+2025-01-23 12:03:03,158 - INFO - Envoi du message texte à 905363044002 : Sayýn ALÝ DURMUÞ 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.0 
+ - KDV 2: 2000.0 
+ - MTV: 9000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 11818.3 
+ 
+ - SON ÖDEME: 27 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:03:03,161 - ERROR - Erreur lors de l'envoi à 905363044002 : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00EFFD53+23747]
+	(No symbol) [0x00E87D54]
+	(No symbol) [0x00D5BE53]
+	(No symbol) [0x00D3D91B]
+	(No symbol) [0x00DC7EFF]
+	(No symbol) [0x00DDAD49]
+	(No symbol) [0x00DC1B96]
+	(No symbol) [0x00D93F3C]
+	(No symbol) [0x00D94EBD]
+	GetHandleVerifier [0x011DAC73+3017699]
+	GetHandleVerifier [0x011EB93B+3086507]
+	GetHandleVerifier [0x011E40F2+3055714]
+	GetHandleVerifier [0x00F95AF0+637536]
+	(No symbol) [0x00E90A5D]
+	(No symbol) [0x00E8DA28]
+	(No symbol) [0x00E8DBC5]
+	(No symbol) [0x00E807F0]
+	BaseThreadInitThunk [0x76B27BA9+25]
+	RtlInitializeExceptionChain [0x776CC0CB+107]
+	RtlClearBits [0x776CC04F+191]
+
+2025-01-23 12:03:03,162 - WARNING - Échec de l'envoi à ALÝ DURMUÞ (905363044002).
+2025-01-23 12:03:05,162 - INFO - Résumé des envois :
+2025-01-23 12:03:05,163 - INFO - Messages envoyés avec succès : 1
+2025-01-23 12:03:05,163 - INFO - Messages échoués : 1
+2025-01-23 12:03:13,933 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 12:03:13,934 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 12:03:13,934 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:03:13,934 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 12:03:13,941 - INFO - Fichier contacts chargé avec succès : 2 entrées trouvées.
+2025-01-23 12:03:13,941 - INFO - ====== WebDriver manager ======
+2025-01-23 12:03:14,642 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:03:14,645 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:03:14,850 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:03:14,852 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:03:14,853 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:03:15,053 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:03:15,059 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-23 12:03:15,060 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 12:03:15,064 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 19132 using 0 to output -3
+2025-01-23 12:03:15,575 - DEBUG - POST http://localhost:50637/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 12:03:15,576 - DEBUG - Starting new HTTP connection (1): localhost:50637
+2025-01-23 12:03:16,289 - DEBUG - http://localhost:50637 "POST /session HTTP/1.1" 200 0
+2025-01-23 12:03:16,289 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50640"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ce1715e07dd5381ea86b57c8395f37c3"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:03:16,289 - DEBUG - Finished Request
+2025-01-23 12:03:16,290 - DEBUG - GET http://localhost:50637/session/ce1715e07dd5381ea86b57c8395f37c3/window/handles {}
+2025-01-23 12:03:16,292 - DEBUG - http://localhost:50637 "GET /session/ce1715e07dd5381ea86b57c8395f37c3/window/handles HTTP/1.1" 200 0
+2025-01-23 12:03:16,292 - DEBUG - Remote response: status=200 | data={"value":["2DD5D36A4BF94E836095D5F695AA77C0"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:03:16,293 - DEBUG - Finished Request
+2025-01-23 12:03:16,294 - DEBUG - GET http://localhost:50637/session/ce1715e07dd5381ea86b57c8395f37c3/window {}
+2025-01-23 12:03:16,295 - DEBUG - http://localhost:50637 "GET /session/ce1715e07dd5381ea86b57c8395f37c3/window HTTP/1.1" 200 0
+2025-01-23 12:03:16,295 - DEBUG - Remote response: status=200 | data={"value":"2DD5D36A4BF94E836095D5F695AA77C0"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:03:16,296 - DEBUG - Finished Request
+2025-01-23 12:03:17,652 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 12:03:17,652 - INFO - Envoi du message texte à 905396701379 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408.0 
+ - STOPAJ: 365.0 
+ - SGK PRÝM: 12000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 5.0 
+ - TOPLAM: 12823.0 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:03:23,066 - INFO - It was not possible to fetch chat "905396701379"
+2025-01-23 12:03:25,522 - INFO - Message sent successfuly to 
+2025-01-23 12:03:25,522 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (905396701379).
+2025-01-23 12:03:27,523 - INFO - Envoi du message texte à 905363044002 : Sayýn ALÝ DURMUÞ 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 308.3 
+ - STOPAJ: 365.0 
+ - KDV 2: 2000.0 
+ - MTV: 9000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 100.0 
+ - TOPLAM: 11818.3 
+ 
+ - SON ÖDEME: 27 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:03:28,001 - INFO - It was not possible to fetch chat "905363044002"
+2025-01-23 12:03:29,708 - INFO - Message sent successfuly to 
+2025-01-23 12:03:29,708 - INFO - Message envoyé avec succès à ALÝ DURMUÞ (905363044002).
+2025-01-23 12:03:31,709 - INFO - Résumé des envois :
+2025-01-23 12:03:31,709 - INFO - Messages envoyés avec succès : 2
+2025-01-23 12:03:31,709 - INFO - Messages échoués : 0
+2025-01-23 12:05:46,802 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 12:05:46,803 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 12:05:46,803 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:05:46,803 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 12:05:46,809 - INFO - Fichier contacts chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:05:46,809 - INFO - ====== WebDriver manager ======
+2025-01-23 12:05:47,468 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:05:47,470 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:05:47,630 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:05:47,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:05:47,633 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:05:47,788 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:05:47,792 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-23 12:05:47,793 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 12:05:47,797 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 9144 using 0 to output -3
+2025-01-23 12:05:48,301 - DEBUG - POST http://localhost:50711/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 12:05:48,301 - DEBUG - Starting new HTTP connection (1): localhost:50711
+2025-01-23 12:05:48,998 - DEBUG - http://localhost:50711 "POST /session HTTP/1.1" 200 0
+2025-01-23 12:05:48,998 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50715"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6d27d2c39b906de417c213d73a0c64ba"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:05:48,998 - DEBUG - Finished Request
+2025-01-23 12:05:48,998 - DEBUG - GET http://localhost:50711/session/6d27d2c39b906de417c213d73a0c64ba/window/handles {}
+2025-01-23 12:05:48,999 - DEBUG - http://localhost:50711 "GET /session/6d27d2c39b906de417c213d73a0c64ba/window/handles HTTP/1.1" 200 0
+2025-01-23 12:05:48,999 - DEBUG - Remote response: status=200 | data={"value":["63926533273A3B38A69B381837AACB0A"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:05:49,000 - DEBUG - Finished Request
+2025-01-23 12:05:49,000 - DEBUG - GET http://localhost:50711/session/6d27d2c39b906de417c213d73a0c64ba/window {}
+2025-01-23 12:05:49,000 - DEBUG - http://localhost:50711 "GET /session/6d27d2c39b906de417c213d73a0c64ba/window HTTP/1.1" 200 0
+2025-01-23 12:05:49,000 - DEBUG - Remote response: status=200 | data={"value":"63926533273A3B38A69B381837AACB0A"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:05:49,001 - DEBUG - Finished Request
+2025-01-23 12:05:50,384 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 12:05:50,384 - INFO - Envoi du message texte à 905396701379 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408.0 
+ - STOPAJ: 365.0 
+ - SGK PRÝM: 12000.0 
+ - E DÖNÜÞÜM: 45.0 
+ - MUHASEBE ÜC.: 5.0 
+ - TOPLAM: 12823.0 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:05:57,311 - INFO - It was not possible to fetch chat "905396701379"
+2025-01-23 12:05:59,256 - INFO - Message sent successfuly to 
+2025-01-23 12:05:59,256 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (905396701379).
+2025-01-23 12:06:01,257 - INFO - Résumé des envois :
+2025-01-23 12:06:01,258 - INFO - Messages envoyés avec succès : 1
+2025-01-23 12:06:01,258 - INFO - Messages échoués : 0
+2025-01-23 12:14:25,610 - INFO - Initialisation de WhatsApp Messenger
+2025-01-23 12:14:25,610 - DEBUG - Tentative de chargement du fichier messages depuis wamessage.json
+2025-01-23 12:14:25,611 - INFO - Fichier messages chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:14:25,611 - DEBUG - Tentative de chargement du fichier contacts depuis wacontact.json
+2025-01-23 12:14:25,611 - INFO - Fichier contacts chargé avec succès : 1 entrées trouvées.
+2025-01-23 12:14:25,611 - INFO - ====== WebDriver manager ======
+2025-01-23 12:14:26,420 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:14:26,424 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:14:26,590 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:14:26,592 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:14:26,593 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-23 12:14:26,788 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9299
+2025-01-23 12:14:26,795 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-23 12:14:26,795 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe
+2025-01-23 12:14:26,800 - DEBUG - Started executable: `C:\Users\Administrator\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe` in a child process with pid: 14344 using 0 to output -3
+2025-01-23 12:14:27,303 - DEBUG - POST http://localhost:50915/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--profile-directory=Default', '--user-data-dir=C:/Temp/ChromeProfile']}}}}
+2025-01-23 12:14:27,303 - DEBUG - Starting new HTTP connection (1): localhost:50915
+2025-01-23 12:14:28,201 - DEBUG - http://localhost:50915 "POST /session HTTP/1.1" 200 0
+2025-01-23 12:14:28,201 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.265","chrome":{"chromedriverVersion":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})","userDataDir":"C:/Temp/ChromeProfile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50918"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6539445b66cebe5ff31c7b9592bab5f4"}} | headers=HTTPHeaderDict({'Content-Length': '839', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:14:28,201 - DEBUG - Finished Request
+2025-01-23 12:14:28,202 - DEBUG - GET http://localhost:50915/session/6539445b66cebe5ff31c7b9592bab5f4/window/handles {}
+2025-01-23 12:14:28,204 - DEBUG - http://localhost:50915 "GET /session/6539445b66cebe5ff31c7b9592bab5f4/window/handles HTTP/1.1" 200 0
+2025-01-23 12:14:28,204 - DEBUG - Remote response: status=200 | data={"value":["C914684CB533E8B3A75DC2838F4D0627"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:14:28,204 - DEBUG - Finished Request
+2025-01-23 12:14:28,204 - DEBUG - GET http://localhost:50915/session/6539445b66cebe5ff31c7b9592bab5f4/window {}
+2025-01-23 12:14:28,205 - DEBUG - http://localhost:50915 "GET /session/6539445b66cebe5ff31c7b9592bab5f4/window HTTP/1.1" 200 0
+2025-01-23 12:14:28,205 - DEBUG - Remote response: status=200 | data={"value":"C914684CB533E8B3A75DC2838F4D0627"} | headers=HTTPHeaderDict({'Content-Length': '44', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-23 12:14:28,206 - DEBUG - Finished Request
+2025-01-23 12:14:29,478 - INFO - Début de l'envoi des messages à tous les contacts.
+2025-01-23 12:14:29,479 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,479 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,479 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,479 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,480 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,481 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,481 - ERROR - Erreur de formatage du montant : 
+2025-01-23 12:14:29,481 - INFO - Envoi du message texte à 905396701379 : Sayýn ORHAN ÖZSOY 
+Aþaðýda bu ayki ödemeleriniz listelenmiþtir. 
+  
+ - KDV D. VERGÝSÝ: 408,00 
+ - STOPAJ: 365,00 
+ - SGK PRÝM: 12 000,00 
+ - E DÖNÜÞÜM: 45,00 
+ - MUHASEBE ÜC.: 5,00 
+ - TOPLAM: 12 823,00 
+ 
+ - SON ÖDEME: 26 / 10/ 2024 
+ - ÝBAN: ALÝ ÇEVÝKLER TÜRKÝYE FÝNANS ÝBAN NO: TR76 0020 6002 8201 1626 3700 02 
+ 
+ *NOT : Dekonta Açýklama Yazmayýnýz.*
+2025-01-23 12:14:36,948 - INFO - It was not possible to fetch chat "905396701379"
+2025-01-23 12:14:39,157 - INFO - Message sent successfuly to 
+2025-01-23 12:14:39,158 - INFO - Message envoyé avec succès à ORHAN ÖZSOY (905396701379).
+2025-01-23 12:14:41,158 - INFO - Résumé des envois :
+2025-01-23 12:14:41,159 - INFO - Messages envoyés avec succès : 1
+2025-01-23 12:14:41,159 - INFO - Messages échoués : 0

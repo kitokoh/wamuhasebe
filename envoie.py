@@ -97,25 +97,25 @@ class WhatsAppMessenger:
         placeholders = {
             "{SIRA}": contact.get('SIRA', ''),
             "{MÜKELLEF}": contact.get('MÜKELLEF', ''),
-            "{KDV}": contact.get('KDV', ''),
-            "{STOPAJ}": contact.get('STOPAJ', ''),
-            "{KDV 2}": contact.get('KDV 2', ''),
-            "{GEÇİCİ VERGİ}": contact.get('GEÇİCİ VERGİ', ''),
-            "{GELİR V.}": contact.get('GELİR V.', ''),
-            "{MTV}": contact.get('MTV', ''),
-            "{T. CEZASI}": contact.get('T. CEZASI', ''),
-            "{VERGİ YAP.}": contact.get('VERGİ YAP.', ''),
-            "{SGK}": contact.get('SGK', ''),
-            "{BAĞ-KUR}": contact.get('BAĞ-KUR', ''),
-            "{SGK YAPILANDIRMA}": contact.get('SGK YAPILANDIRMA', ''),
-            "{SMM KDV Sİ}": contact.get('SMM KDV Sİ', ''),
-            "{E DÖNÜŞÜM}": contact.get('E DÖNÜŞÜM', ''),
-            "{DEFTER TASTİK}": contact.get('DEFTER TASTİK', ''),
-            "{E. KALAN TUTAR}": contact.get('E. KALAN TUTAR', ''),
-            "{MUHASEBE ÜC.}": contact.get('MUHASEBE ÜC.', ''),
-            "{TOPLAM}": contact.get('TOPLAM', ''),
-            "{FAZLA ALINAN}": contact.get('FAZLA ALINAN', ''),
-            "{KALAN}": contact.get('KALAN', ''),
+            "{KDV}": self._format_money(contact.get('KDV', '')),  # Formater en argent
+            "{STOPAJ}": self._format_money(contact.get('STOPAJ', '')),  # Formater en argent
+            "{KDV 2}": self._format_money(contact.get('KDV 2', '')),  # Formater en argent
+            "{GEÇİCİ VERGİ}": self._format_money(contact.get('GEÇİCİ VERGİ', '')),  # Formater en argent
+            "{GELİR V.}": self._format_money(contact.get('GELİR V.', '')),  # Formater en argent
+            "{MTV}": self._format_money(contact.get('MTV', '')),  # Formater en argent
+            "{T. CEZASI}": self._format_money(contact.get('T. CEZASI', '')),  # Formater en argent
+            "{VERGİ YAP.}": self._format_money(contact.get('VERGİ YAP.', '')),  # Formater en argent
+            "{SGK}": self._format_money(contact.get('SGK', '')),  # Formater en argent
+            "{BAĞ-KUR}": self._format_money(contact.get('BAĞ-KUR', '')),  # Formater en argent
+            "{SGK YAPILANDIRMA}": self._format_money(contact.get('SGK YAPILANDIRMA', '')),  # Formater en argent
+            "{SMM KDV Sİ}": self._format_money(contact.get('SMM KDV Sİ', '')),  # Formater en argent
+            "{E DÖNÜŞÜM}": self._format_money(contact.get('E DÖNÜŞÜM', '')),  # Formater en argent
+            "{DEFTER TASTİK}": self._format_money(contact.get('DEFTER TASTİK', '')),  # Formater en argent
+            "{E. KALAN TUTAR}": self._format_money(contact.get('E. KALAN TUTAR', '')),  # Formater en argent
+            "{MUHASEBE ÜC.}": self._format_money(contact.get('MUHASEBE ÜC.', '')),  # Formater en argent
+            "{TOPLAM}": self._format_money(contact.get('TOPLAM', '')),  # Formater en argent
+            "{FAZLA ALINAN}": self._format_money(contact.get('FAZLA ALINAN', '')),  # Formater en argent
+            "{KALAN}": self._format_money(contact.get('KALAN', '')),  # Formater en argent
             "{SON ÖDEME}": contact.get('SON ÖDEME', ''),
             "{İBAN}": contact.get('İBAN', ''),
         }
@@ -128,6 +128,19 @@ class WhatsAppMessenger:
                 message_text = self._remove_line_with_placeholder(message_text, placeholder)
 
         return message_text
+    def _format_money(self, amount):
+        """Formate un montant numérique en format monétaire (ex: 12823.0 -> '12 823,00')."""
+        try:
+            # Convertir en float pour s'assurer que c'est un nombre
+            amount = float(amount)
+            # Formater avec des espaces comme séparateurs de milliers et une virgule pour les décimales
+            formatted_amount = "{:,.2f}".format(amount).replace(",", " ").replace(".", ",")
+            return formatted_amount
+        except (ValueError, TypeError):
+            logging.error(f"Erreur de formatage du montant : {amount}")
+            return str(amount)  # Retourner la valeur originale en cas d'erreur
+        
+
 
     def _remove_line_with_placeholder(self, message_text, placeholder):
         """Supprime la ligne contenant le placeholder si la valeur est vide."""
